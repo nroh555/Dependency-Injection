@@ -5,7 +5,8 @@
     {
         static void Main(string[] args)
         {
-            var jeevan = new Jeevan();
+            Deck deck = new Deck();
+            var jeevan = new Jeevan(deck);
             var word = jeevan.GetPrice("Pokemon");
             Console.WriteLine(word);
         }

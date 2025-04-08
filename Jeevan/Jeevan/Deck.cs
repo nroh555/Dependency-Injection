@@ -1,6 +1,6 @@
 namespace Jeevan;
 
-public class Deck
+public class Deck : IDeck
 {
     public string GetCards(string game)
     {
