@@ -2,8 +2,10 @@ namespace Jeevan;
 
 public class Deck : IDeck
 {
-    public string GetCards(string game)
+    private readonly int _number = new Random().Next(1, 100);
+    
+    public int GetCards(string game)
     {
-        return "sike";
+        return _number;
     }
 }

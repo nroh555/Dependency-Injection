@@ -9,7 +9,7 @@ public class Jeevan
         _deck = deck;
     }
     
-    public string GetPrice(string game)
+    public int GetPrice(string game)
     {
         return _deck.GetCards(game);
     }
